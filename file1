@@ -1,0 +1,7 @@
+hi 
+
+git add filename
+git commit -m "commit messge"
+git push
+git status
+git show
