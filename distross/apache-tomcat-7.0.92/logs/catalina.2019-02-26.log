@@ -1,0 +1,80 @@
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.92
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 9 2018 11:07:44 UTC
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.92.0
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1075-aws
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ubuntu/distross/apache-tomcat-7.0.92
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ubuntu/distross/apache-tomcat-7.0.92
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ubuntu/distross/apache-tomcat-7.0.92/conf/logging.properties
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ubuntu/distross/apache-tomcat-7.0.92
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ubuntu/distross/apache-tomcat-7.0.92
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ubuntu/distross/apache-tomcat-7.0.92/temp
+Feb 26, 2019 2:42:34 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Feb 26, 2019 2:42:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 26, 2019 2:42:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2019 2:42:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1237 ms
+Feb 26, 2019 2:42:35 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 26, 2019 2:42:35 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.92
+Feb 26, 2019 2:42:35 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/flipkart.war
+Feb 26, 2019 2:42:54 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [18,322] milliseconds.
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/flipkart.war has finished in 19,004 ms
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/manager
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/manager has finished in 128 ms
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/docs
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/docs has finished in 86 ms
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/examples
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/examples has finished in 396 ms
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/host-manager
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/host-manager has finished in 78 ms
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/ROOT
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/ROOT has finished in 49 ms
+Feb 26, 2019 2:42:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 26, 2019 2:42:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2019 2:42:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19891 ms

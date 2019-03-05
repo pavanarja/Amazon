@@ -1,0 +1,18 @@
+Feb 27, 2019 1:13:27 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/gamutkart.war
+Feb 27, 2019 1:13:27 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/gamutkart.war has finished in 81 ms
+Feb 27, 2019 1:41:33 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 27, 2019 1:41:33 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2019 1:41:33 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Feb 27, 2019 1:41:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 27, 2019 1:41:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2019 1:41:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 27, 2019 1:41:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

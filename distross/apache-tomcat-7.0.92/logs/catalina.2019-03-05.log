@@ -1,0 +1,148 @@
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.92
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 9 2018 11:07:44 UTC
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.92.0
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1075-aws
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ubuntu/distross/apache-tomcat-7.0.92
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ubuntu/distross/apache-tomcat-7.0.92
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ubuntu/distross/apache-tomcat-7.0.92/conf/logging.properties
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ubuntu/distross/apache-tomcat-7.0.92
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ubuntu/distross/apache-tomcat-7.0.92
+Mar 05, 2019 2:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ubuntu/distross/apache-tomcat-7.0.92/temp
+Mar 05, 2019 2:08:49 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 05, 2019 2:08:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 05, 2019 2:08:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 05, 2019 2:08:50 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1213 ms
+Mar 05, 2019 2:08:50 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 05, 2019 2:08:50 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.92
+Mar 05, 2019 2:08:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/jenkins.war
+Mar 05, 2019 2:08:52 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Mar 05, 2019 2:08:56 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Mar 05, 2019 2:08:56 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 05, 2019 2:08:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/jenkins.war has finished in 7,356 ms
+Mar 05, 2019 2:08:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/flipkart.war
+Mar 05, 2019 2:08:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/flipkart.war has finished in 150 ms
+Mar 05, 2019 2:08:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/gamutkart.war
+Mar 05, 2019 2:08:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/gamutkart.war has finished in 112 ms
+Mar 05, 2019 2:08:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/manager
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/manager has finished in 208 ms
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/docs
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/docs has finished in 81 ms
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/examples
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/examples has finished in 482 ms
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/host-manager
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/host-manager has finished in 103 ms
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/ROOT
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/distross/apache-tomcat-7.0.92/webapps/ROOT has finished in 72 ms
+Mar 05, 2019 2:08:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 05, 2019 2:08:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 05, 2019 2:08:58 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8761 ms
+Mar 05, 2019 2:09:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 05, 2019 2:09:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 05, 2019 2:09:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 05, 2019 2:09:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 05, 2019 2:09:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 05, 2019 2:09:04 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 05, 2019 2:09:04 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 05, 2019 2:09:07 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@23310cad: display name [Root WebApplicationContext]; startup date [Tue Mar 05 02:09:07 UTC 2019]; root of context hierarchy
+Mar 05, 2019 2:09:07 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@23310cad]: org.springframework.beans.factory.support.DefaultListableBeanFactory@37bc12ac
+Mar 05, 2019 2:09:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@37bc12ac: defining beans [authenticationManager]; root of factory hierarchy
+Mar 05, 2019 2:09:07 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@433f1d74: display name [Root WebApplicationContext]; startup date [Tue Mar 05 02:09:07 UTC 2019]; root of context hierarchy
+Mar 05, 2019 2:09:07 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@433f1d74]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3af8d7f4
+Mar 05, 2019 2:09:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3af8d7f4: defining beans [filter,legacy]; root of factory hierarchy
+Mar 05, 2019 2:09:08 AM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+d5fbb45d21804b8b91f93187f96e2fa7
+
+This may also be found at: /home/ubuntu/.jenkins/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Mar 05, 2019 2:09:16 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 05, 2019 2:09:16 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 05, 2019 2:09:17 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 05, 2019 2:09:17 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Mar 05, 2019 2:09:17 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,695 ms
+Mar 05, 2019 2:09:17 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
